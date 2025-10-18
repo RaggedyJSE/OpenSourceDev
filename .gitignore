@@ -1,0 +1,65 @@
+# ----------------------------
+# 🔒 Environment & secrets
+# ----------------------------
+.env
+*.env
+.env.*
+
+# ----------------------------
+# 🐍 Python (FastAPI backend)
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+build/
+dist/
+venv/
+.venv/
+env/
+ENV/
+Pipfile
+Pipfile.lock
+
+# VSCode & IDE metadata
+.vscode/
+.idea/
+
+# ----------------------------
+# ⚛️ Node / React (frontend)
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.vite/
+
+# ----------------------------
+# 🧪 Testing / coverage
+# ----------------------------
+coverage/
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ----------------------------
+# 🧰 OS / Misc
+# ----------------------------
+.DS_Store
+Thumbs.db
+*.log
+
+# ----------------------------
+# 🧱 Supabase / Docker / Extras
+# ----------------------------
+.supabase/
+docker-compose.override.yml
+docker-data/
